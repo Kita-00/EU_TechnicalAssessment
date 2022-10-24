@@ -1,0 +1,21 @@
+runtime: php55
+
+runtime_config:
+  document_root: .
+
+handlers:
+- url: /(.+\.(png|css|js|PNG))$
+  static_files: index.php
+  upload: /(.+\.(png|css|js|PNG))$
+
+- url: /.*
+  script: auto
+
+entrypoint:
+  serve handler.php
+
+env_variables:
+  CLOUSSQL_USER: root
+  CLOUDSQL_DB: tech_db
+  CLOUDSQL_PASSWORD: :&LK)v0<oOF16&]t
+  CLOUDSQL_DSN: employee-hierarchy-manager:europe-west4:dbtech
