@@ -1,0 +1,81 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--grey-color);
+}
+
+.bodySection {
+    margin-top: 6em;
+}
+
+div.backBtn {
+    align-self: center;
+}
+
+img.GravImg {
+    float: right;
+    margin-left: 1rem;
+}
+
+h4.EmployeeNumHeader {
+    margin-top: 5mm;
+}
+
+table tr th {
+    font-size: 20px;
+    padding-bottom: 1rem
+}
+
+table.PersDetailsTable tr td:first-child {
+    width: 30%;
+    font-weight: 800;
+}
+
+table.EmplDetailsTable tr td:first-child {
+    width: 40%;
+    font-weight: 800;
+}
+
+table.PersDetailsTable tr td:nth-child(2) {
+    font-weight: 700;
+}
+
+table.EmplDetailsTable tr td:nth-child(2) {
+    font-weight: 700;
+}
+
+button.editEmployee {
+    font-size: 17px;
+}
+
+button.deleteEMPconfirm {
+    font-size: 17px;
+}
+
+div#profileDetailsHeading {
+    background-color: var(--dark-blue-color);
+    color: white;
+}
+
+div#profileDetailsBody {
+    background-color: var(--light-blue-color);
+}
+
+div#profileDetailsFooter {
+    background-color: var(--dark-blue-color);
+}
+
+div.modal-header.deleteEMPhead {
+    background-color: var(--dark-blue-color);
+    color: white;
+}
+
+div.modal-body.deleteEMPbody {
+    background-color: var(--light-blue-color);
+}
+
+div.modal-footer.deleteEMPfoot {
+    background-color: var(--light-blue-color);
+}

@@ -1,0 +1,52 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--grey-color);
+}
+
+.bodySection {
+    margin-top: 6em;
+}
+
+div.searchBoxDIV {
+    display: flex;
+    justify-content: center;
+    margin-top: 3mm;
+    margin-bottom: 5mm;
+}
+
+div.searchBoxDIV #HierarchySearch {
+    width: 40%;
+    border-radius: 15px;
+    padding-left: 4mm;
+}
+
+div.searchBoxDIV i {
+    position: relative;
+    margin-top: 1.5mm;
+    margin-left: -3%;
+}
+
+div.employeeCard {
+    margin-bottom: 1mm;
+    background-color: var(--dark-blue-color);
+    color: white;
+}
+
+div.card-title {
+    margin-bottom: 1mm; 
+}
+
+div.card-title h4 {
+    margin-top: 2mm;
+    margin-bottom: 0;
+}
+
+div.card-text p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}

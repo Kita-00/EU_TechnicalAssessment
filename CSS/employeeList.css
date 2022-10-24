@@ -1,0 +1,97 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--grey-color);
+}
+
+.bodySection {
+    margin-top: 6em;
+}
+
+.EmployeeList {
+    padding: 0;
+}
+
+.filterRow {
+    height: 10mm;
+    margin-bottom: 1rem;
+    margin-top: 4mm; 
+}
+
+.filterOptions {
+    margin-top: 1.5mm;
+}
+
+.ConfirmFilter {
+    height: 10mm;
+}
+
+table.listTable tr th {
+    background-color: var(--dark-blue-color);
+    color: white;
+    height: 1cm;
+}
+
+input.searchInput {
+    border: none;
+    outline:none;
+    background-color: var(--dark-blue-color);
+    color: white;
+    font-weight: 500;
+}
+
+input.searchInput::placeholder {
+    color:lightgray;
+    font-weight: 500;
+}
+
+table.listTable tr th input.eNum {
+    width: 20mm;
+}
+
+table.listTable tr th input.eName {
+    width: 26mm;
+}
+
+table.listTable tr th input.eSur {
+    width: 26mm;
+}
+
+table.listTable tr th input.eRole {
+    width: 30mm;
+}
+
+table.listTable tr th input.eMngr {
+    width: 20mm;
+}
+
+table.listTable tr th input.eHD {
+    width: 22mm;
+}
+
+table.listTable tr th input.eSal {
+    width: 26mm;
+}
+
+table.listTable tr th input.eBD {
+    width: 22mm;
+}
+
+table.listTable tr th input.eEmail {
+    width: 55mm;
+}
+
+table.listTable tr td {
+    background-color: var(--light-blue-color);
+    font-weight: 500;
+}
+
+.table thead th {
+    font-size: 15px;
+}
+
+.table tbody td {
+    font-size: 14px;
+}

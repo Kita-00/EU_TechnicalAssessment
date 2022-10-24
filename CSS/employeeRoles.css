@@ -1,0 +1,127 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--grey-color);
+}
+
+.bodySection {
+    margin-top: 6em;
+}
+
+div.searchBoxDIV {
+    display: flex;
+    justify-content: center;
+    margin-top: 3mm;
+    margin-bottom: 5mm;
+}
+
+div.searchBoxDIV #roleSearch {
+    width: 40%;
+    border-radius: 15px;
+    padding-left: 4mm;
+}
+
+div.searchBoxDIV i {
+    position: relative;
+    margin-top: 1.5mm;
+    margin-left: -3%;
+}
+
+form.radioRoles {
+    display: flex;
+    justify-content: center;
+    margin-top: 3mm;
+    margin-bottom: 5mm;
+}
+
+div.RoleTableContainer {
+    display: flex;
+    justify-content: center;
+}
+
+table.RoleTable {
+    width: 70%;
+    align-self: center;
+}
+
+table.RoleTable tr th {
+    background-color: var(--dark-blue-color);
+    color: white;
+    height: 1cm;
+}
+
+table.RoleTable tr td {
+    background-color: var(--light-blue-color);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+table.RoleTable tr td:first-child {
+    width: 75%;
+}
+
+table.RoleTable tr td:nth-child(2) {
+    text-align: center;
+}
+
+button.editRole {
+    margin-right: 1mm;
+}
+
+div.modal-body.updateRole {
+    text-align: left;
+    background-color: var(--dark-blue-color);
+    color: white;
+}
+
+div.modal-footer.updateRole {
+    background-color: var(--light-blue-color);
+}
+
+div.modal-body.updateRole div label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.modal-header.deleteRole {
+    background-color: var(--dark-blue-color);
+    color: white;
+}
+
+div.modal-body.deleteRole {
+    text-align: left;
+    background-color: var(--light-blue-color);
+}
+
+div.modal-footer.deleteRole {
+    background-color: var(--light-blue-color);
+}
+
+div.modal-body.deleteRole p {
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+}
+
+button.deleteEMPconfirm {
+    margin-left: 1mm;
+}
+
+button.createRole {
+    margin-left: 15%;
+}
+
+div.modal-body.addRole {
+    background-color: var(--dark-blue-color);
+    color: white;
+}
+
+div.modal-footer.addRole {
+    background-color: var(--light-blue-color);
+}
+
+div.modal-body.addRole div label{
+    font-size: 20px;
+    font-weight: bold;
+}

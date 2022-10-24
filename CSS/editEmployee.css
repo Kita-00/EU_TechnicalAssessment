@@ -1,0 +1,28 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--grey-color);
+}
+
+.bodySection {
+    margin-top: 6em;
+}
+
+div.EditEmployeeFormContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--light-blue-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: 800;
+}
+
+div.buttonDiv {
+    margin-top: 2mm;
+}
